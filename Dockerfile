@@ -1,7 +1,7 @@
 FROM mcr.microsoft.com/dotnet/framework/aspnet:4.8-windowsservercore-ltsc2019
 
-LABEL maintainer=”Tino Gruse”
-LABEL version=”0.1.0"
+LABEL maintainer="Tino Gruse"
+LABEL version="0.1.0"
 
 # Install IISRewrite Module
 ADD https://download.microsoft.com/download/1/2/8/128E2E22-C1B9-44A4-BE2A-5859ED1D4592/rewrite_amd64_en-US.msi c:/inetpub/rewrite_amd64_en-US.msi
